@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="storemenu_style.css"?>
+<catalog>
+
+    <item>
+        <img>../DOG_MENU/korm1.png</img>
+        <model>Лакомство BALU мультивитаминное</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/BALU1.png</img>
+        <model>Лакомство BALU</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/FOR_FRIENDS.png</img>
+        <model>Лакомство For Friends</model>
+        <prise>5,83р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/PLATINUM.png</img>
+        <model>Лакомство Platinum</model>
+        <prise>18,71р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/FORDOGS.png</img>
+        <model>Лакомство For Dogs</model>
+        <prise>1.64р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/SERRANO.png</img>
+        <model>Лакомство Serrano</model>
+        <prise>6,39р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/FORDOGS1.png</img>
+        <model>Медальоны для собак из мяса индейки</model>
+        <prise>58,48р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/MOLINA.png</img>
+        <model>Лакомство Molina</model>
+        <prise>6,34р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/TAPAS.png</img>
+        <model>Лакомство Tapas</model>
+        <prise>14,99р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/SAT.png</img>
+        <model>Лакомство Сытый друг</model>
+        <prise>13,50р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/HAPPYDOG.png</img>
+        <model>Лакомство Happy Dog</model>
+        <prise>7,06р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/SAT1.png</img>
+        <model>Лакомство Сытый друг</model>
+        <prise>3,30р</prise>
+    </item>
+
+     <item>
+        <img>../DOG_MENU/SERRANOSNACS.png</img>
+        <model>Палочки Serrano</model>
+        <prise>18,25р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/La_Baritta.png</img>
+        <model>Лакомство La Baritta</model>
+        <prise>11,81р</prise>
+    </item>
+
+    <item>
+        <img>../DOG_MENU/GBALU.png</img>
+        <model>Лакомство BALU</model>
+        <prise>1,94р</prise>
+    </item>
+
+     <item>
+        <img>../DOG_MENU/CAMON.png</img>
+        <model>CAMON Косточки растительные</model>
+        <prise>2,90р</prise>
+    </item>
+
+</catalog>

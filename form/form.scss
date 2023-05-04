@@ -1,0 +1,88 @@
+$format: 'boldy';
+@font-face {
+	font-family: 'boldy'; 
+	src: url(../Srift/boldy.ttf); 
+}
+a{
+    text-decoration: none;
+    color: black;
+    }
+    a:hover {
+        color:black; 
+        text-decoration:none; 
+        cursor:pointer;  
+        
+    }
+    a:visited {
+        color:black; 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
+.block{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: #FFD62B;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-family: $format;
+
+}
+.block_content{
+  padding-top: 15%;
+}
+.block_head_text{
+    position: relative;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    left:25%;
+    border-radius: 8px;
+}
+.block label{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color:black;
+}
+.block input{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;  
+  border:none;
+  outline: none;
+}
+input:focus {
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid #436fea;
+}
+.button{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 115%;
+}
+::-webkit-input-placeholder {color:#3f3f44; padding-left: 10px;} 
+::-moz-placeholder          {color:#3f3f44; padding-left: 10px;} 
+:-moz-placeholder           {color:#3f3f44; padding-left: 10px;} 
+:-ms-input-placeholder      {color:#3f3f44; padding-left: 10px;} 

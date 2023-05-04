@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="storemenu_style.css"?>
+<catalog>
+
+    <item>
+        <img>../CAT_MENU/BALU.png</img>
+        <model>Лакомство BALU мультивитаминное</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/BALU1.png</img>
+        <model>Лакомство BALU мультивитаминное</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/BALU2.png</img>
+        <model>Лакомство BALU мультивитаминное</model>
+        <prise>5,83р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/BALU3.png</img>
+        <model>Лакомство BALU мультивитаминное</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SERRANO.png</img>
+        <model>Лакомство Serrano</model>
+        <prise>7.64р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SAT.png</img>
+        <model>Лакомство Сытый друг</model>
+        <prise>6,29р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SANAL.png</img>
+        <model>Лакомство SANAL</model>
+        <prise>9,30р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/ZLAK.png</img>
+        <model>Злаки пророщенные для домашних питомцев</model>
+        <prise>1,82р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/DIP_PROTEIN.png</img>
+        <model>Лакомство Dip Protein</model>
+        <prise>14,18р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/BALU4.png</img>
+        <model>Лакомство BALU</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/FOR_FRIENDS.png</img>
+        <model>Лакомство For Friends</model>
+        <prise>5,83р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SAT.png</img>
+        <model>Лакомство Сытый друг</model>
+        <prise>4,89р</prise>
+    </item>
+
+     <item>
+        <img>../CAT_MENU/BALU5.png</img>
+        <model>Лакомство BALU</model>
+        <prise>6,31р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SAT1.png</img>
+        <model>Лакомство Сытый друг</model>
+        <prise>3,30р</prise>
+    </item>
+
+    <item>
+        <img>../CAT_MENU/SERRANO1.png</img>
+        <model>Лакомство Serrano</model>
+        <prise>6,29р</prise>
+    </item>
+
+     <item>
+        <img>../CAT_MENU/SERRANO2.png</img>
+        <model>Лакомство Serrano</model>
+        <prise>6,29р</prise>
+    </item>
+
+</catalog>

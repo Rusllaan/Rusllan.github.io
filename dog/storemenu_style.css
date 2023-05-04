@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "boldy";
+  src: url(../Srift/boldy.ttf);
+}
+body {
+  width: 99%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+svg {
+  position: relative;
+  left: 15%;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  font-family: "boldy";
+}
+
+.topnav a:not(:first-child) {
+  margin-top: 1%;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 27px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #FFD62B;
+  margin-right: 5%;
+  border-radius: 7px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.catalog {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.catalog .text {
+  width: 100%;
+  margin-top: 2vw;
+  margin-left: 2vh;
+  display: flex;
+  justify-content: start;
+}
+.catalog .text p {
+  color: black;
+  font-family: "boldy";
+  font-weight: bold;
+  font-size: 7vh;
+}
+.catalog .items {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.catalog .items .item {
+  width: 28vh;
+  height: 35vh;
+  background: white;
+  margin: 5vw;
+  margin-bottom: 10vw;
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "boldy";
+}
+.catalog .items .item img {
+  height: 90%;
+}
+.catalog .items .item .model {
+  margin: 0;
+  font-size: 3vh;
+  font-weight: bolder;
+}
+.catalog .items .item .price {
+  margin: 0;
+  font-size: 2vh;
+}
+.catalog .items .item button {
+  margin-top: 1.5vh;
+  height: 5vh;
+  width: 90%;
+  border: none;
+  background-color: #FFD62B;
+  font-size: 3vh;
+  transition: all 0.4s;
+}
+.catalog .items .item button:hover {
+  background-color: #fac800;
+  transition: all 0.4s;
+}
+.catalog .items .item:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+.catalog .items .item {
+  transition: transform 0.4s;
+}
+
+.footer {
+  position: relative;
+  height: 90px;
+  width: 100%;
+  bottom: 0%;
+  background-color: black;
+  color: #ABABAB;
+  vertical-align: middle;
+}
+.footer ul {
+  line-height: 170%;
+  list-style: none;
+}
+
+.btn-up {
+  position: fixed;
+  background-color: #FFD62B;
+  right: 20px;
+  bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 50px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url(../main/up.png);
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #fac800;
+  }
+}/*# sourceMappingURL=storemenu_style.css.map */
