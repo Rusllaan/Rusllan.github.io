@@ -2,6 +2,10 @@
   font-family: "boldy";
   src: url(../Srift/boldy.ttf);
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
   width: 99%;
   height: 100%;
@@ -29,7 +33,12 @@ svg {
   left: 15%;
 }
 
+#myTopnav {
+  position: sticky;
+}
+
 .topnav {
+  position: sticky;
   background-color: white;
   overflow: hidden;
   font-family: "boldy";
@@ -158,6 +167,7 @@ svg {
   height: 90px;
   width: 100%;
   bottom: 0%;
+  margin: 0%;
   background-color: black;
   color: #ABABAB;
   vertical-align: middle;

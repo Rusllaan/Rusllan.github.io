@@ -2,6 +2,10 @@
   font-family: "boldy";
   src: url(../Srift/boldy.ttf);
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
   width: 99%;
   height: 100%;

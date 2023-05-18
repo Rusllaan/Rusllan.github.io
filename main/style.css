@@ -2,8 +2,12 @@
   font-family: "boldy";
   src: url(../Srift/boldy.ttf);
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
-  width: 99%;
+  width: 100%;
   height: 100%;
 }
 
@@ -191,8 +195,10 @@ svg {
 .footer {
   position: relative;
   height: 90px;
-  width: 100%;
+  width: 99.5%;
   bottom: 0%;
+  margin: 0%;
+  padding: 0%;
   background-color: black;
   color: #ABABAB;
   vertical-align: middle;
